@@ -10,7 +10,7 @@ This is not meant to be a complete tutorial on how to make maps or use QGIS - th
 - If you have not used QGIS before, we recommend you spend time learning the basics of QGIS using the training materials available on the QGIS.org website [here](https://qgis.org/en/site/forusers/trainingmaterial/index.html). 
 - To install QGIS on your computer, you can find the installation files for QGIS [here](https://qgis.org/en/site/forusers/download.html). 
 - This guide was developed using QGIS version 3.4.7 “Madeira”. If you have a different version installed, the graphics and method may be different. You do not need to install this version - just a note that you may have some interface differences.
-- You should understand the what the layers panel is, how to view a layer's attributes, and how to get to the properties of a layer.
+- You should understand the what the layers panel is, how to view a layer's attributes, and how to get to the properties of a layer. Or consider this an opportunity to figure those things out along the way!
 
 ## Step 1. Extract case data
 This step is covered in the [Data Extraction](https://worldhealthorganization.github.io/godata/data-extraction/) document. Please note that you should include the location ID field in the export. This field will be used to join the case data to the shapefile. (I should check and see if it is naturally coming out or if you have to specify it).
