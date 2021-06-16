@@ -27,10 +27,12 @@ For this demonstration, we will filter out cases with specific classification ty
 
 In QGIS, add your Go.Data .csv export by clicking on the “Add Delimited Text” button to get the dialog below. Your settings should look like what is set in the graphic below as far as file format and geometry definition. Click add and then close. You will see points in the map view.
 
+![image](https://user-images.githubusercontent.com/19505814/122250195-7566ff80-ce97-11eb-8b96-bca5e1eed015.png)
+
 Our case data has multiple case classifications. For this demonstration we want those classified as “confirmed” or “probable” only. We also want to aggregate them by unique identifier, which in this case is the “Location_ID” field. This field value matches our unique identifier in our GIS dataset. 
 
 *Note: If your Go.Data instance was not set up using the unique identifier in your GIS dataset, you can use your admin area name field for the filter, aggregation and join. However, the records must be unique values so be sure there are no discrepancies (ie. different spelling between datasets, same name different location, etc.) prior to these processes, or your results will be incorrect.
 
-![image](https://user-images.githubusercontent.com/19505814/122250195-7566ff80-ce97-11eb-8b96-bca5e1eed015.png)
+
 
 
