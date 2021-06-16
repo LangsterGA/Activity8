@@ -29,6 +29,7 @@ In QGIS, add your Go.Data .csv export by clicking on the “Add Delimited Text�
 
 ## Step 4. Create virtual layer
 Next, create a Virtual Layer – this will eventually be joined to our polygon shapefile. We do this step-in order to query and aggregate our data prior to joining to the GIS dataset. To learn more about Virtual layers in QGIS, click [here](https://docs.qgis.org/3.16/en/docs/user_manual/managing_data_source/create_layers.html?highlight=virtual#creating-virtual-layers). Next, import the cases that you just loaded into QGIS, into this virtual layer, and then Add to embed it into the layer as shown below. 
+
 ![image](https://user-images.githubusercontent.com/19505814/122294900-8c711600-cec6-11eb-88e1-8fd1cc62d113.png)
 
 For this demonstration, we will filter out cases with specific classification types and aggregate by administrative unit area since our GIS dataset is the administrative unit boundaries. The method used here is just one example of performing this workflow – you may know of others and we encourage you to share them to our [Community of Practice](https://community-godata.who.int/login). 
