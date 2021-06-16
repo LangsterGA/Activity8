@@ -48,6 +48,6 @@ In order to make a choropleth map we need to join our virtual layer to an existi
 
 If you look in the attributes for the shapefile you will see the new column with the virtual layer count. This is the field that will be used to symbolize the choropleth map. These values are the confirmed and probable cases aggregated by Location_ID.
 
-![image](https://user-images.githubusercontent.com/19505814/122295929-c989d800-cec7-11eb-8e26-54dfeea2de08.png)
+![image](https://user-images.githubusercontent.com/19505814/122296031-eb835a80-cec7-11eb-96fd-989c510fc97e.png)
 
 
