@@ -3,7 +3,7 @@
 - Create a choropleth map of cases in QGIS using data extracted from Go.Data.
 
 
-![QGISWorkflowImage](../assets/DocsWorkflowImage.png)
+![QGISWorkflow](../assets/DocsWorkflowImage.png)
 
 
 
