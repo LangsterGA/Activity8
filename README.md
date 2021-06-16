@@ -12,4 +12,4 @@ This is not meant to be a complete tutorial on how to make maps or use QGIS - th
 - This guide was developed using QGIS version 3.4.7 “Madeira”. If you have a different version installed, the graphics and method may be different. You do not need to install this version - just a note that you may have some interface differences.
 
 ## Step 1. Extract case data
-This step is covered in the [Data Extraction](https://worldhealthorganization.github.io/godata/data-extraction/) document. Please note that we opted to include the location ID field in the export. This field will be used to join the case data to the shapefile.
+This step is covered in the [Data Extraction](https://worldhealthorganization.github.io/godata/data-extraction/) document. Please note that you should include the location ID field in the export. This field will be used to join the case data to the shapefile.
