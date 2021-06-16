@@ -22,16 +22,17 @@ TO: “Cases_2021_06_06.csv”
 
 *Note: the dashes were converted to underscores and the spaces removed.
 
-## Step 3. Filter and aggregate in QGIS
-For this demonstration, we will filter out cases with specific classification types and aggregate by administrative unit area since our GIS dataset is the administrative unit boundaries. The methods used here are just one example of performing this workflow – you may know of others and we encourage you to share them to our [Community of Practice](https://community-godata.who.int/login). 
-
+## Step 3. Import data into QGIS
 In QGIS, add your Go.Data .csv export by clicking on the “Add Delimited Text” button to get the dialog below. Your settings should look like what is set in the graphic below as far as file format and geometry definition. Click add and then close. You will see points in the map view.
 
 ![image](https://user-images.githubusercontent.com/19505814/122250195-7566ff80-ce97-11eb-8b96-bca5e1eed015.png)
 
-Our case data has multiple case classifications. For this demonstration we want those classified as “confirmed” or “probable” only. We also want to aggregate them by unique identifier, which in this case is the “Location_ID” field. This field value matches our unique identifier in our GIS dataset. 
+## Step 4. Create virtual layer
+Next, create a Virtual Layer – this will eventually be joined to our polygon shapefile. We do this step-in order to query and aggregate our data prior to joining to the GIS dataset. To learn more about Virtual layers in QGIS, click [here](https://docs.qgis.org/3.16/en/docs/user_manual/managing_data_source/create_layers.html?highlight=virtual#creating-virtual-layers). Next, import the cases that you just loaded into QGIS, into this virtual layer, and then Add to embed it into the layer as shown below. 
 
-*Note: If your Go.Data instance was not set up using the unique identifier in your GIS dataset, you can use your admin area name field for the filter, aggregation and join. However, the records must be unique values so be sure there are no discrepancies (ie. different spelling between datasets, same name different location, etc.) prior to these processes, or your results will be incorrect.
+For this demonstration, we will filter out cases with specific classification types and aggregate by administrative unit area since our GIS dataset is the administrative unit boundaries. The method used here is just one example of performing this workflow – you may know of others and we encourage you to share them to our [Community of Practice](https://community-godata.who.int/login). 
+
+
 
 
 
