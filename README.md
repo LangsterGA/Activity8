@@ -20,7 +20,7 @@ Prior to mapping, you will want to reformat the case export file from Go.Data. T
 FROM: “Cases - 2021-06-06.csv”
 TO: “Cases_2021_06_06.csv”
 
-*Note the dashes were converted to underscores and the spaces removed.
+*Note: the dashes were converted to underscores and the spaces removed.
 
 ## Step 3. Filter and aggregate in QGIS
 For this demonstration, we will filter out cases with specific classification types and aggregate by administrative unit area since our GIS dataset is the administrative unit boundaries. The methods used here are just one example of performing this workflow – you may know of others and we encourage you to share them to our Community of Practice. 
