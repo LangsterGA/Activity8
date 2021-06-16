@@ -31,3 +31,6 @@ Our case data has multiple case classifications. For this demonstration we want 
 
 *Note: If your Go.Data instance was not set up using the unique identifier in your GIS dataset, you can use your admin area name field for the filter, aggregation and join. However, the records must be unique values so be sure there are no discrepancies (ie. different spelling between datasets, same name different location, etc.) prior to these processes, or your results will be incorrect.
 
+![image](https://user-images.githubusercontent.com/19505814/122250195-7566ff80-ce97-11eb-8b96-bca5e1eed015.png)
+
+
