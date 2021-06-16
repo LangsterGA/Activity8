@@ -34,7 +34,10 @@ Next, create a Virtual Layer – this will eventually be joined to our polygon s
 
 For this demonstration, we will filter out cases with specific classification types and aggregate by administrative unit area since our GIS dataset is the administrative unit boundaries. The method used here is just one example of performing this workflow – you may know of others and we encourage you to share them to our [Community of Practice](https://community-godata.who.int/login). 
 
+## Step 5. Filter data
+Next, add a SQL statement/filter in the Query section of the dialog to get only confirmed and probable case records, and a count of those records by unique “Location_ID”. See syntax in graphic. 
 
+![image](https://user-images.githubusercontent.com/19505814/122295207-ef62ad00-cec6-11eb-94de-8e856275a929.png)
 
 
 
