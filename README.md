@@ -8,7 +8,7 @@ This is not meant to be a complete tutorial on how to make maps or use QGIS - th
 
 ## Step 0. Requirements:
 - If you have not used QGIS before, we recommend you spend time learning the basics of QGIS using the training materials available on the QGIS.org website [here](https://qgis.org/en/site/forusers/trainingmaterial/index.html). 
-- The installation files for QGIS can be found [here](https://qgis.org/en/site/forusers/download.html). 
+- To install QGIS on your computer, you can find the installation files for QGIS [here](https://qgis.org/en/site/forusers/download.html). 
 - This guide was developed using QGIS version 3.4.7 “Madeira”. If you have a different version installed, the graphics and method may be different.
 
 ## Step 1. Extract case data
