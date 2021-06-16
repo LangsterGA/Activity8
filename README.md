@@ -23,7 +23,7 @@ TO: “Cases_2021_06_06.csv”
 *Note: the dashes were converted to underscores and the spaces removed.
 
 ## Step 3. Import data into QGIS
-In QGIS, add your Go.Data .csv export by clicking on the “Add Delimited Text” button to get the dialog below. Your settings should look like what is set in the graphic below as far as file format and geometry definition. Click add and then close. You will see points in the map view.
+In QGIS, add your Go.Data .csv export by clicking on the “Add Delimited Text” button to get the dialog below. Your settings should look like the settings in the graphic below as far as file format and geometry definition. Click add and then close. You will see points in the map view.
 
 ![image](https://user-images.githubusercontent.com/19505814/122250195-7566ff80-ce97-11eb-8b96-bca5e1eed015.png)
 
