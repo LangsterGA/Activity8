@@ -39,6 +39,6 @@ Next, add a SQL statement/filter in the Query section of the dialog to get only 
 
 ![image](https://user-images.githubusercontent.com/19505814/122295207-ef62ad00-cec6-11eb-94de-8e856275a929.png)
 
-
+*Note that the unique geographic identifier field is “Location_ID”, the case classification field is “Classification” and “Cases_2021_06_06_clean” is the name of the csv file that was embedded. 
 
 
