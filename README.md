@@ -50,4 +50,9 @@ If you look in the attributes for the shapefile you will see the new column with
 
 ![image](https://user-images.githubusercontent.com/19505814/122296031-eb835a80-cec7-11eb-96fd-989c510fc97e.png)
 
+## Step 7. Create choropleth map
+To symbolize the polygon GIS layer, right-click on it in the layers panel to get to Properties and select the “Symbology” item. Follow the graphic below to set up parameters. 
 
+![image](https://user-images.githubusercontent.com/19505814/122296311-41580280-cec8-11eb-8603-20f08b0a454b.png)
+
+Choose “Graduated” for the symbol type. For the column – choose the virtual layer count field that was created in a previous step. Choose the mode – in this example I am using “Natural Breaks”, and then click on the button “Classify” to get the classes to show up in the dialog. You can also adjust the number of classes (right side of dialog). Because this dataset has a low case count, I am only showing 3 classes. When you have completed the parameters click Apply.
