@@ -41,4 +41,8 @@ Next, add a SQL statement/filter in the Query section of the dialog to get only 
 
 *Note that the unique geographic identifier field is “Location_ID”, the case classification field is “Classification” and “Cases_2021_06_06_clean” is the name of the csv file that was embedded. 
 
+## Step 6. Join to shapefile
+In order to make a choropleth map we need to join our virtual layer to an existing polygon layer. Right-click on your polygon GIS layer and go to Properties and select Joins as highlighted in the image below. Use the green + button to add your join. Choose the virtual layer that was just created and the “Location_ID” field as the Join field. For the Target field, choose the matching unique identifier field in the GIS dataset. In this example, it is the “FIPS field”. Then click, OK, Apply and then close the dialog. 
+
+![image](https://user-images.githubusercontent.com/19505814/122295775-a0694780-cec7-11eb-9a18-a8cbbe9b29bc.png)
 
