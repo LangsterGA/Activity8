@@ -7,10 +7,11 @@ Below we outline how to create a simple choropleth map of cases. We walk through
 This is not meant to be a complete tutorial on how to make maps or use QGIS - this guide assumes you have some experience with QGIS and/or mapping. The guide uses a polygon GIS dataset (shapefile) with a unique identifier field that matches the unique identifier (Location_ID) of the case data exported from Go.Data. For sources of GIS data to make your own map using your own data, please see our section [? add the link where the different location data sources are mentioned].
 
 ## Step 0. Requirements:
+- There really are not any requirements as this is mean to give a conceptual walk through for making a simple choropleth map. 
 - If you have not used QGIS before, we recommend you spend time learning the basics of QGIS using the training materials available on the QGIS.org website [here](https://qgis.org/en/site/forusers/trainingmaterial/index.html). 
 - To install QGIS on your computer, you can find the installation files for QGIS [here](https://qgis.org/en/site/forusers/download.html). 
 - This guide was developed using QGIS version 3.4.7 “Madeira”. If you have a different version installed, the graphics and method may be different. You do not need to install this version - just a note that you may have some interface differences.
-- You should already understand the what the layers panel is, how to view a layer's attributes, and how to get to the properties of a layer. Or consider this an opportunity to figure those things out along the way!
+- The following assumes you understand the what the layers panel is, how to view a layer's attributes, and how to get to the properties of a layer. Or consider this an opportunity to figure those things out along the way!
 
 ## Step 1. Extract case data
 This step is covered in the [Data Extraction](https://worldhealthorganization.github.io/godata/data-extraction/) document. In this example the case data is exported as a .csv file. In this file, the unique identifier values for the location is the same unique identifier in the GIS shapefile. The image below is this field as it is exported from Go.Data.
