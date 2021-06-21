@@ -45,7 +45,7 @@ A SQL statement/filter is added to the Query section of the virtual layer dialog
 *Note that the unique geographic identifier field is “Location_ID”, the case classification field is “Classification” and “Cases_2021_06_06_clean” is the name of the csv file that was embedded. 
 
 ## Step 6. Join to shapefile
-In order to make a choropleth map we join our virtual layer to a polygon layer. This is done by doing a right-click on the polygon GIS layer, and then to Properties, and by selecting Joins as highlighted in the image below. The green + button will add the join. The virtual layer that was just created should be chosed and the “Location_ID” field as the Join field. For the Target field, we choose the matching unique identifier field in the GIS dataset. In this example, it is the “FIPS field”. Then click, OK, Apply and then close the dialog. 
+In order to make a choropleth map we join our virtual layer to a polygon layer. This is done by doing a right-click on the polygon GIS layer, and then to Properties, and by selecting Joins as highlighted in the image below. The green + button will add the join. The virtual layer that was just created is chosen as the Join Layer and the “Location_ID” field as the Join field. For the Target field, we choose the matching unique identifier field in the GIS dataset. In this example, it is the “FIPS field”. Then click, OK, Apply and then close the dialog. 
 
 *Note: QGIS adds the text "123" before the name of a number field and "abc" for a text field so you know what the data type is when you select your target and join fields.
 
