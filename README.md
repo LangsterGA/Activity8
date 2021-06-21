@@ -7,7 +7,7 @@ Below we outline how to create a simple choropleth map of cases. We walk through
 This is not meant to be a complete tutorial on how to make maps or use QGIS - this guide assumes you have some experience with QGIS and/or mapping. The guide uses a polygon GIS dataset (shapefile) with a unique identifier field that matches the unique identifier (Location_ID) of the case data exported from Go.Data. For sources of GIS data to make your own map using your own data, please see our section [? add the link where the different location data sources are mentioned].
 
 ## Step 0. Requirements:
-- There really are not any requirements as this is mean to give a conceptual walk through for making a simple choropleth map. 
+- There really are not any requirements as this is meant to give a conceptual walk through for making a simple choropleth map. 
 - If you have not used QGIS before, we recommend you spend time learning the basics of QGIS using the training materials available on the QGIS.org website [here](https://qgis.org/en/site/forusers/trainingmaterial/index.html). 
 - To install QGIS on your computer, you can find the installation files for QGIS [here](https://qgis.org/en/site/forusers/download.html). 
 - This guide was developed using QGIS version 3.4.7 “Madeira”. If you have a different version installed, the graphics and method may be different. You do not need to install this version - just a note that you may have some interface differences.
