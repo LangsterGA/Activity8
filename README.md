@@ -24,12 +24,12 @@ TO: “Cases_2021_06_06.csv”
 *Note: the dashes were converted to underscores and the spaces removed.
 
 ## Step 3. Import data into QGIS
-In QGIS, add your Go.Data .csv export by clicking on the “Add Delimited Text” button to get the dialog below. Your settings should look like the settings in the graphic below as far as file format and geometry definition. Click add and then close. You will see points in the map view.
+In QGIS, the Go.Data .csv export is added by clicking on the “Add Delimited Text” button to get the dialog below. Settings should look like the settings in the graphic below as far as file format and geometry definition. Click add and then close. You will see points in the map view.
 
 ![image](https://user-images.githubusercontent.com/19505814/122250195-7566ff80-ce97-11eb-8b96-bca5e1eed015.png)
 
 ## Step 4. Create virtual layer
-Next, create a Virtual Layer – this will eventually be joined to our polygon shapefile. We do this step-in order to query and aggregate our data prior to joining to the GIS dataset. To learn more about Virtual layers in QGIS, click [here](https://docs.qgis.org/3.16/en/docs/user_manual/managing_data_source/create_layers.html?highlight=virtual#creating-virtual-layers). Next, import the cases that you just loaded into QGIS, into this virtual layer, and then Add to embed it into the layer as shown below. 
+Next step is to create a Virtual Layer – this will eventually be joined to a shapefile. This step is done in order to query and aggregate data prior to joining to the GIS dataset. To learn more about Virtual layers in QGIS, click [here](https://docs.qgis.org/3.16/en/docs/user_manual/managing_data_source/create_layers.html?highlight=virtual#creating-virtual-layers). Next, the cases file is imported into the virtual layer, and then Added to embed it into the layer as shown below. 
 
 ![image](https://user-images.githubusercontent.com/19505814/122294900-8c711600-cec6-11eb-88e1-8fd1cc62d113.png)
 
