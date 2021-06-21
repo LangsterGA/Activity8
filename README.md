@@ -36,7 +36,7 @@ Next step is to create a Virtual Layer – this will eventually be joined to a s
 
 
 ## Step 5. Filter data
-For this demonstration, we will filter out cases with specific classification types and aggregate by administrative unit area since our GIS dataset is the administrative unit boundaries. The method used here is just one example of performing this workflow – you may know of others and we encourage you to share them to our [Community of Practice](https://community-godata.who.int/login). 
+For this demonstration, we filter out cases with specific classification types and aggregate by administrative unit area since our GIS dataset is the administrative unit boundaries. The method used here is just one example of performing this workflow – you may know of others and we encourage you to share them to our [Community of Practice](https://community-godata.who.int/login). 
 
 A SQL statement/filter is added to the Query section of the virtual layer dialog to get only "confirmed" or "probable" case records, as well as a count of those records by unique “Location_ID”. See syntax in graphic. 
 
