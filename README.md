@@ -29,7 +29,7 @@ In QGIS, the Go.Data .csv export is added by clicking on the “Add Delimited Te
 ![image](https://user-images.githubusercontent.com/19505814/122250195-7566ff80-ce97-11eb-8b96-bca5e1eed015.png)
 
 ## Step 4. Create virtual layer
-Next step is to create a Virtual Layer – this will eventually be joined to a shapefile. This step is done in order to query and aggregate data prior to joining to the GIS dataset. To learn more about Virtual layers in QGIS, click [here](https://docs.qgis.org/3.16/en/docs/user_manual/managing_data_source/create_layers.html?highlight=virtual#creating-virtual-layers). Next, the cases file is imported into the virtual layer, and then Added to embed it into the layer as shown below. 
+Next step is to create a Virtual Layer – this will eventually be joined to a shapefile. This step is done in order to query and aggregate data prior to joining to the GIS dataset. To learn more about Virtual layers in QGIS, click [here](https://docs.qgis.org/3.16/en/docs/user_manual/managing_data_source/create_layers.html?highlight=virtual#creating-virtual-layers). After clicking on the add virtual layer button, the cases file is imported into the virtual layer, and then Added to embed it into the layer as shown below. 
 
 ![image](https://user-images.githubusercontent.com/19505814/122294900-8c711600-cec6-11eb-88e1-8fd1cc62d113.png)
 
