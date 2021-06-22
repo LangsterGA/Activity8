@@ -66,4 +66,4 @@ To symbolize the polygon GIS layer, we right-click on it in the layers panel to 
 
 ![image](https://user-images.githubusercontent.com/19505814/122296311-41580280-cec8-11eb-8603-20f08b0a454b.png)
 
-Choose “Graduated” for the symbol type. For the column – choose the virtual layer count field that was created in a previous step. Choose the mode – in this example I am using “Natural Breaks”, and then click on the button “Classify” to get the classes to show up in the dialog. You can also adjust the number of classes (right side of dialog). Because this dataset has a low case count, I am only showing 3 classes. When you have completed the parameters click Apply.
+We chose “Graduated” for the symbol type. For the column – we set to the virtual layer count field that was created in a previous step. For mode – in this example we use “Natural Breaks”, and then clicked the button “Classify” to get the classes to show up in the dialog. You can also adjust the number of classes (right side of dialog). Because this dataset has a low case count, I am only showing 3 classes. When the parameters are set we click Apply.
