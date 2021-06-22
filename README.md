@@ -82,3 +82,6 @@ If you don't see the panel, you need to turn it on. On the drop-down menu of the
 ![image](https://user-images.githubusercontent.com/19505814/122998561-3515ee80-d37b-11eb-9b89-69ffc5981afd.png)
 
 Lastly, once you are happy with the map you can export it by choosing a method from the icons at the top of the page or by the Layout dropdown menu and choosing an export option such as “Export as image”. You will be able to choose from many image formats including PNG, JPEG and PDF.
+
+![image](https://user-images.githubusercontent.com/19505814/122999636-85418080-d37c-11eb-8dfe-8bde2fba2ea5.png)
+
