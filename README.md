@@ -74,8 +74,7 @@ Note: If you only see shaded boundaries where there are values, you can copy and
 In order to create an image file of the map we create a layout and export it as a png. On the Project drop-down menu, we select “New Print Layout”. This prompts you to give the layout a name and a new blank layout page will be created. Then you need to add the map you just created by going to the “Add Item” drop-down from the top of the page and selecting “Add Map”. This activates a draw tool so you can draw a box in the area of the canvas where you would like the map to appear. 
 
 You can also use the “Add Item” to add things like a title and a legend, as shown in the graphic below. Again, you draw the items where you would like them to appear on the layout canvas. Changes to layout items can be made in the panel on the right side of the layout view. For instance you can adjust the alignment, font and size of the label text used for the title of the map. 
-
-![image](https://user-images.githubusercontent.com/19505814/122998055-94273380-d37a-11eb-8de6-20763456685c.png)
+![image](https://user-images.githubusercontent.com/19505814/122998306-df414680-d37a-11eb-8797-1c16a0af5451.png)
 
 
 
