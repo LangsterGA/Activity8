@@ -14,7 +14,7 @@ This is not meant to be a complete tutorial on how to make maps or use QGIS - th
 - The following assumes you understand the what the layers panel is, how to view a layer's attributes, and how to get to the properties of a layer. Or consider this an opportunity to figure those things out along the way!
 
 ## Step 1. Extract case data
-This step is also covered in the [Data Extraction](https://worldhealthorganization.github.io/godata/data-extraction/) document. From within the "Cases" section of Go.Data, the case data is exported as a .csv file (Quick actions> Export case data). In this file, the unique identifier for the location is the same unique identifier in the GIS shapefile. This is because GIS data was used to set up the location data in Go.Data.
+This step is also covered in the [Data Extraction](https://worldhealthorganization.github.io/godata/data-extraction/) document. From within the "Cases" section of Go.Data, the case data is exported as a .csv file (Quick actions> Export case data). For this demonstration we are interested in two fields, the location ID and the case classification field. In the file, the unique identifier for the location is the same unique identifier in the GIS shapefile. This is because GIS data was used to set up the location data in Go.Data. The classification field has values for the type of case classification each case is.
 
 The image below is this field as it is exported from Go.Data.
 
