@@ -18,7 +18,7 @@ This step is also covered in the [Data Extraction](https://worldhealthorganizati
 
 The image below is this field as it is exported from Go.Data.
 
-![image](https://user-images.githubusercontent.com/19505814/122817500-f95d2500-d2a5-11eb-8e87-8bfb5bd7f666.png) ![image](https://user-images.githubusercontent.com/19505814/122942420-32e46d80-d344-11eb-8c3e-43a9ed9d416d.png)
+![image](https://user-images.githubusercontent.com/19505814/122817500-f95d2500-d2a5-11eb-8e87-8bfb5bd7f666.png) ![image](https://user-images.githubusercontent.com/19505814/122942593-514a6900-d344-11eb-81b8-6b9a2d1cdafb.png)
 
 
  This field will be used to join the case data to the shapefile. 
