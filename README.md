@@ -58,12 +58,12 @@ In order to make a choropleth map we join our virtual layer to a polygon layer. 
 
 ![image](https://user-images.githubusercontent.com/19505814/122295775-a0694780-cec7-11eb-9a18-a8cbbe9b29bc.png)
 
-If you look in the attributes for the shapefile you will see the new column with the virtual layer count. This is the field that will be used to symbolize the choropleth map. These values are the confirmed and probable cases aggregated by Location_ID.
+In the attributes of the shapefile you can see the new column with the virtual layer count. This is the field that is used to symbolize the choropleth map. These values are the confirmed and probable cases aggregated by Location_ID.
 
 ![image](https://user-images.githubusercontent.com/19505814/122296031-eb835a80-cec7-11eb-96fd-989c510fc97e.png)
 
 ## Step 7. Create choropleth map
-To symbolize the polygon GIS layer, right-click on it in the layers panel to get to Properties and select the “Symbology” item. Follow the graphic below to set up parameters. 
+To symbolize the polygon GIS layer, we right-click on it in the layers panel to get to Properties and select the “Symbology” item. The graphic below can be used to set up parameters. 
 
 ![image](https://user-images.githubusercontent.com/19505814/122296311-41580280-cec8-11eb-8603-20f08b0a454b.png)
 
