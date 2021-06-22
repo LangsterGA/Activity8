@@ -77,5 +77,8 @@ You can also use the “Add Item” to add things like a title and a legend, as 
 
 ![image](https://user-images.githubusercontent.com/19505814/122998390-f7b16100-d37a-11eb-8a28-a4f3940eb85a.png)
 
-If you don't see the panel, you need to turn it on. On the drop-down menu of the layout - click on View, highlight Panels and check off items, item properties and layout.
+If you don't see the panel, you need to turn it on. On the drop-down menu of the layout - click on View, highlight Panels and check off items, item properties and layout as shown below.
+
+![image](https://user-images.githubusercontent.com/19505814/122998561-3515ee80-d37b-11eb-9b89-69ffc5981afd.png)
+
 
