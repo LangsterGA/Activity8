@@ -17,7 +17,9 @@ This is not meant to be a complete tutorial on how to make maps or use QGIS - th
 This step is also covered in the [Data Extraction](https://worldhealthorganization.github.io/godata/data-extraction/) document. From within the "Cases" section of Go.Data, the case data is exported as a .csv file (Quick actions> Export case data). For this demonstration we are interested in two fields, the location ID and the case classification field. In the file, the unique identifier for the location is the same unique identifier in the GIS shapefile. This is because GIS data was used to set up the location data in Go.Data [insert link to guidance on this]. The classification field has values for the type of case classification each case is.
 
 The image below shows the fields we will be using as exported from Go.Data.
+
 ![image](https://user-images.githubusercontent.com/19505814/122994010-f92c5a80-d375-11eb-9ce6-8929a70a1da6.png)
+
 
 ## Step 2. Reformat extracted file before import to QGIS 
 Prior to mapping, the case export file from Go.Data should be reformatted. This is necessary since there are columns with characters in the header and dashes are used in the file name. In Excel, or a similar application, the column named “Addresses Location ID [1]” is changed to “Location_ID”. This column is used for aggregating and joining, so it has to be formatted properly for QGIS. For the csv file that was exported, in the filename you will replace the dashes with underscores, or just remove them. In the example below the filename represents data that was exported from Go.Data on June 6, 2021.
