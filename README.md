@@ -75,7 +75,7 @@ In order to create an image file of the map we create a layout and export it as 
 
 You can also use the “Add Item” to add things like a title and a legend, as shown in the graphic below. Again, you draw the items where you would like them to appear on the layout canvas. Changes to layout items can be made in the panel on the right side of the layout view. For instance you can adjust the alignment, font and size of the label text used for the title of the map. 
 
-![image](https://user-images.githubusercontent.com/19505814/122998390-f7b16100-d37a-11eb-8a28-a4f3940eb85a.png)
+![image](https://user-images.githubusercontent.com/19505814/122999043-c5543380-d37b-11eb-8fb9-ef938d85cf3c.png)
 
 If you don't see the panel, you need to turn it on. On the drop-down menu of the layout - click on View, highlight Panels and check off items, item properties and layout as shown below.
 
