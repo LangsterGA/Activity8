@@ -69,3 +69,15 @@ To symbolize the polygon GIS layer, we right-click on it in the layers panel to 
 We chose “Graduated” for the symbol type. For the column – we set to the virtual layer count field that was created in a previous step. For mode – in this example we use “Natural Breaks”, and then clicked the button “Classify” to get the classes to show up in the dialog. You can also adjust the number of classes (right side of dialog). Because this dataset has a low case count, I am only showing 3 classes. When the parameters are set we click Apply.
 
 Note: If you only see shaded boundaries where there are values, you can copy and paste the layer in the layers panel (make a duplicate). Then, in symbology properties, make the duplicate layer a single symbol, no fill, with the same outline as the choropleth layer. This is so the areas with no cases still show a boundary.
+
+## Step 7. Create print layout and export
+In order to create an image file of the map we create a layout and export it as a png. On the Project drop-down menu, we select “New Print Layout”. This prompts you to give the layout a name and a new blank layout page will be created. Then you need to add the map you just created by going to the “Add Item” drop-down from the top of the page and selecting “Add Map”. This activates a draw tool so you can draw a box in the area of the canvas where you would like the map to appear. 
+
+You can also use the “Add Item” to add things like a title and a legend, as shown in the graphic below. Again, you draw the items where you would like them to appear on the layout canvas. Changes to layout items can be made in the panel on the right side of the layout view. For instance you can adjust the alignment, font and size of the label text used for the title of the map. 
+
+![image](https://user-images.githubusercontent.com/19505814/122998055-94273380-d37a-11eb-8de6-20763456685c.png)
+
+
+
+If you don't see the panel, you need to turn it on. On the drop-down menu of the layout - click on View, highlight Panels and check off items, item properties and layout.
+
