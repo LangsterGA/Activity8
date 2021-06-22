@@ -67,3 +67,5 @@ To symbolize the polygon GIS layer, we right-click on it in the layers panel to 
 ![image](https://user-images.githubusercontent.com/19505814/122296311-41580280-cec8-11eb-8603-20f08b0a454b.png)
 
 We chose “Graduated” for the symbol type. For the column – we set to the virtual layer count field that was created in a previous step. For mode – in this example we use “Natural Breaks”, and then clicked the button “Classify” to get the classes to show up in the dialog. You can also adjust the number of classes (right side of dialog). Because this dataset has a low case count, I am only showing 3 classes. When the parameters are set we click Apply.
+
+Note: If you only see shaded boundaries where there are values, you can copy and paste the layer in the layers panel (make a duplicate). Then, in symbology properties, make the duplicate layer a single symbol, no fill, with the same outline as the choropleth layer. This is so the areas with no cases still show a boundary.
