@@ -8,7 +8,7 @@ This is not meant to be a complete tutorial on how to make maps or use QGIS - th
 
 ## Step 0. Requirements:
 - There really are not any requirements as this is meant to give a conceptual walk through for making a simple choropleth map and can be used as a reference when you create your own maps. 
-- If you have not used QGIS before, we recommend you spend time learning the basics of QGIS using the training materials available on the QGIS.org website [here](https://qgis.org/en/site/forusers/trainingmaterial/index.html). 
+- If you have not used QGIS before, and you are interested in learning the basics of QGIS, the training materials are available on the QGIS.org website [here](https://qgis.org/en/site/forusers/trainingmaterial/index.html). 
 - To install QGIS on your computer, you can find the installation files for QGIS [here](https://qgis.org/en/site/forusers/download.html). 
 - This guide was developed using QGIS version 3.4.7 “Madeira”. If you have a different version installed, the graphics and method may be different. You do not need to install this version - just a note that you may have some interface differences.
 - The following assumes you understand the what the layers panel is, how to view a layer's attributes, and how to get to the properties of a layer. Or consider this an opportunity to figure those things out along the way!
